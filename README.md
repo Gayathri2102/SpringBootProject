@@ -55,6 +55,8 @@ CRUD REST API Using Spring Boot, Spring Data and MongoDB
     "_class" : "treez.model.Order"
 }
  ```
+ ## Command to run mongodb: 
+ mongod --port 27017 --dbpath <path-for-db-storage>
  
  ## Step 2: Download and run the project
  
