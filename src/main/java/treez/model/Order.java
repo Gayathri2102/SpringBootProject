@@ -6,9 +6,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import lombok.AllArgsConstructor;
-
-@AllArgsConstructor
 @Document(collection = "order")
 public class Order {
 	
@@ -52,6 +49,14 @@ public class Order {
 
 	public void setCustName(String custName) {
 		this.custName = custName;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	
 	public String getOrderDate() {
